@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "complaintType": "Transactions",
+        "complainantDetails": { "firstName": "John", "lastName": "Doe" },
+        "complaintSubject": "Issue with claim processing",
+        "incidentOccurredDate": "2023-10-01"
+    },
+    {
+        "id": 2,
+        "complaintType": "Code Sets",
+        "complainantDetails": { "firstName": "Jane", "lastName": "Smith" },
+        "complaintSubject": "Incorrect code usage",
+        "incidentOccurredDate": "2023-10-02"
+    }
+]
