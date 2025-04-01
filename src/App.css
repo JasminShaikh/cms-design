@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2e6da4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .App-link {
@@ -35,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cms-layout {
+    display: flex;
+}
+
+.cms-content {
+    flex: 1; /* This allows the content to take the remaining space */
+    padding: 0;
+}
+
+.asett-container {
+    padding: 0; /* Add padding for overall layout */
+}
+
+.title-asett {
+    margin: 20px 0; /* Add vertical spacing */
+    text-align: center; /* Center the title */
 }

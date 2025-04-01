@@ -1,0 +1,352 @@
+.asett-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.asett-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e6da4;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar a, .auth-button {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover, .auth-button:hover {
+    color: #ffcc00;
+}
+
+.title-asett {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.asett-main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.disclaimer {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.steps-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.steps-list li {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.steps-list li:hover {
+    background-color: #d3d3d3;
+}
+
+.step-icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.complaint-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.complaint-button:hover {
+    background-color: #218838;
+}
+
+.asett-footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.asett-footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.asett-footer a:hover {
+    color: #007bff;
+}
+
+.auth-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.auth-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.auth-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.auth-icon {
+    color: white;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.auth-icon:hover {
+    color: #ffcc00;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.radio-label label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.step-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.step-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.step-subtitle {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+    margin-top: 0;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.radio-label.selected {
+    background-color: #cce5ff;
+    border-color: #007bff;
+}
+
+.radio-title {
+    flex: 0 0 20%;
+    font-weight: bold;
+}
+
+.radio-description {
+    flex: 1;
+    font-size: 0.5rem;
+    color: #333;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.step-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.step-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.step-subtitle {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.radio-label {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.radio-label:hover {
+    background-color: #e9ecef;
+}
+
+.radio-title {
+    flex: 0 0 20%;
+    font-weight: bold;
+}
+
+.radio-description {
+    flex: 1;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.next-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
+
+.start-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #218838;
+} 

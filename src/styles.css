@@ -63,7 +63,7 @@ body {
 /* Content area styles */
 .cms-content {
     flex: 1; /* Take up remaining space */
-    padding: 20px; /* Padding around content */
+    padding: 0; /* Padding around content */
     overflow-y: auto; /* Scroll if content overflows */
 }
 
